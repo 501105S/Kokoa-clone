@@ -1,0 +1,26 @@
+.status-bar{
+    width: 100%;
+    padding: 5px 3px;    
+    display: flex;
+    justify-content: center;
+}
+
+.status-bar__column{
+    width: 33.3333%;
+}
+.status-bar__column:nth-child(1) span{
+   margin-right: 5px;
+}
+.status-bar__column:nth-child(2) span{
+   display: flex;
+   justify-content: center;
+}
+.status-bar__column:nth-child(3){
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+
+.status-bar__column .fa-battery-quarter{
+    margin: 0 5px;
+}
