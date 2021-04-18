@@ -1,0 +1,43 @@
+.nav{
+    width: 100%;
+    padding: 20px 40px;
+    background-color: #f9f9f9;
+    border-top: 1px solid rgba(0,0,0,.1);
+
+    position: fixed;
+    bottom: 0;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-item_link{
+    color: #2e363e;
+    
+    position: relative;
+}
+
+.nav-item_noti{
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+}
+
+.nav-item_dot{
+    width: 7px;
+    height: 7px;
+
+    background-color: tomato;
+    color: white;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    bottom: 25px;
+    left: 35px;
+}
