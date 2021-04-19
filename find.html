@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find -  Kokoa Clone</title>
+
+   <!-- STYLE -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+
+        <div class="status-bar__column">
+            <span>11%</span>
+            <i class="fas fa-battery-quarter fa-lg"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <nav class="nav">
+        <ul class="nav-list">
+            <li class="nav-item" aria-label="user">
+                <a class="nav-item_link" href="friends.html">
+                    <i class="far fa-user fa-2x"></i>
+                </a>
+            </li>
+
+            <li class="nav-item" aria-label="chat">
+                <a class="nav-item_link" href="chats.html">
+                    <span class="nav-item_noti badge">1</span>
+                    <i class="far fa-comment fa-2x"></i>
+                </a>
+            </li>
+
+            <li class="nav-item" aria-label="search">
+                <a class="nav-item_link" href="find.html">
+                    <i class="fas fa-search fa-2x"></i>
+                </a>
+            </li>
+
+            <li class="nav-item" aria-label="menu">
+                <a class="nav-item_link" href="more.html">
+                    <div class="nav-item_dot"></div>
+                    <i class="fas fa-ellipsis-h fa-2x"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <header class="screen-header">
+        <p class="screen-heade_title">Find</p>
+        <div class="screen-heade_icons">
+            <span>
+                <i class="fas fa-search fa-lg"></i>
+            </span>
+
+            <span>
+                <a href="settings.html"><i class="fas fa-cog fa-lg"></i></a>
+                <div class="setting_dot"></div>
+            </span>            
+        </div>
+    </header>
+
+    <div class="main-screen">
+        <div class="icon-row">
+            <div class="icon-row_icon">
+                <i class="fas fa-qrcode fa-lg"></i>
+                <span>QR Code</span>
+            </div>
+
+            <div class="find-icons_icon">
+                <i class="far fa-address-book fa-lg"></i>
+                <span>Add by Contacts</span>
+            </div>
+
+            <div class="find-icons_icon">
+                <i class="far fa-plus-square fa-lg"></i>
+                <span>Add by ID</span>
+            </div>
+
+            <div class="find-icons_icon">
+                <i class="far fa-envelope fa-lg"></i>
+                <span>Invite</span>
+            </div>
+        </div>
+    
+        <div class="recommended-friends">
+            <p class="recommended-friends_title">Recommended Friends</p>
+            <p class="recommended-friends_text">You have no recommended friends</p>
+        </div>
+
+        <div class="open-chat">
+            <div class="open-chat_header">
+                <p class="open-chat_header__title">Open Chat</p>
+                <p class="open-chat_header__text">Go to Openchat Home <i class="fas fa-chevron-right"></i></p>
+            </div>
+
+            <div class="open-post">
+                <div class="open-post_column">
+                    <p class="open-post_column__title">대장토끼와 당근들</p>
+                    <p class="open-post_column__tags">#yerin_baek#square#TVT</p>
+                    <div class="open-post_column__members">
+                        <img src="images/me.jpg" alt="예린 프로필">
+                        <span class="open-post_column__members-count"> 310 members</span>
+                        <div class="divider"></div>
+                        <span class="open-post_column__members-status">Active</span>
+                    </div>
+                </div>
+                <div class="open-post_column">
+                    <div class="open-post_photo">
+                        <img src="images/singer_profile.jpg" alt="예린 프로필">
+                        <div>
+                            <i class="fas fa-heart"></i>
+                            <span>266</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="open-post">
+                <div class="open-post_column">
+                    <p class="open-post_column__title">백예린 고독방</p>
+                    <p class="open-post_column__tags">#yerin_baek#square#TVT</p>
+                    <div class="open-post_column__members">
+                        <img src="images/me.jpg" alt="예린 프로필">
+                        <span class="open-post_column__members-count"> 626 members</span>
+                        <div class="divider"></div>
+                        <span class="open-post_column__members-status">Active</span>
+                    </div>
+                </div>
+                <div class="open-post_column">
+                    <div class="open-post_photo">
+                        <img src="images/our_love_is_great.jpg" alt="예린 프로필">
+                        <div>
+                            <i class="fas fa-heart"></i>
+                            <span>415</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+
+    <!--FONT AWESOME-->
+    <script
+    src="https://kit.fontawesome.com/6478f529f2.js"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+.recommended-friends{
+    width: 100%;
+    padding: 20px 14px;
+    border-top: var(--main-border);
+    border-bottom: var(--main-border);
+}
+
+.recommended-friends_title{
+    color: rgba(0,0,0,.5);
+}
+.recommended-friends_text{
+    padding: 90px 0;
+    text-align: center;
+    color: rgba(0,0,0,.3);
+}
+
+.open-chat_header{
+    padding: 22px 14px;
+    color: rgba(0,0,0,.7);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.open-chat_header__text{
+    color: rgba(0,0,0,.3);
+}
+
+.open-post{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 12px 0;
+    border-bottom: var(--main-border);
+}
+.open-post:last-child{
+    border-bottom: none;
+}
+
+.open-post_column:first-child{
+    width: 70%;
+}
+
+.open-post_column__title{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.open-post_column__tags{
+    line-height: 3.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgba(0,0,0,.3);
+    text-transform: uppercase;
+}
+
+.open-post_column__members{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: .9rem;
+}
+.open-post_column__members span{
+    margin: 0 10px;
+}
+.open-post_column__members-count{
+    color: rgba(0,0,0,.4);
+    font-weight: 600;
+}
+.open-post_column .divider{
+    width: 2px;
+    height: 18px;
+    background-color: rgba(0,0,0,.4);
+}
+.open-post_column__members-status{
+    color: #fd59bb;
+}
+
+.open-post_column:first-child img{
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+}
+
+.open-post_column:last-child{
+    width: 120px;
+}
+.open-post_column:last-child img{
+    width: 100%;
+    border-radius: 18px;
+    object-fit: cover;
+    display: block;
+}
+
+.open-post_photo{
+    position: relative;
+}
+
+.open-post_photo div{
+    width: 60px;
+    padding: 4px;
+    font-size: .8rem;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 28px;
+
+    position: absolute;
+    bottom: 3px;
+    right: 5px;
+}

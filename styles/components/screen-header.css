@@ -17,4 +17,6 @@
 .screen-heade_icons span{
     margin: 0 8px;
     cursor: pointer;
+
+    position: relative;
 }

@@ -1,0 +1,33 @@
+.settings-item{
+    padding: 15px 0;
+    border-bottom: var(--main-border);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    cursor: pointer;
+}
+.settings-item:last-child{
+    border-bottom: none;
+}
+
+.settings-item i{
+    margin-right: 12px;
+    opacity: .9;
+}
+
+.settings-item span{
+    font-weight: 600;
+    text-align: start;
+}
+
+.setting-item_column:last-child span{
+    font-weight: 600;
+    opacity: .5;
+}
+
+hr{
+    opacity: .5;
+    margin: 12px 0;
+}

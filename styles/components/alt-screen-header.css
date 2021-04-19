@@ -1,0 +1,23 @@
+.alt-header{
+    padding: var(--horizontal-space);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.alt-header_column:nth-child(1){
+    margin-right: auto;
+}
+.alt-header_column:nth-child(3){
+    margin-left: auto;
+}
+
+.alt-header_title{
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.alt-header_column i{
+    cursor: pointer;
+}
+
