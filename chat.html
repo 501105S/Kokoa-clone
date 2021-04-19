@@ -9,7 +9,7 @@
    <!-- STYLE -->
     <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
+<body class="chat-screen">
     <div class="status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
@@ -27,36 +27,6 @@
         </div>
     </div>
 
-    <nav class="nav">
-        <ul class="nav-list">
-            <li class="nav-item" aria-label="user">
-                <a class="nav-item_link" href="friends.html">
-                    <i class="far fa-user fa-2x"></i>
-                </a>
-            </li>
-
-            <li class="nav-item" aria-label="chat">
-                <a class="nav-item_link" href="chats.html">
-                    <span class="nav-item_noti badge">1</span>
-                    <i class="far fa-comment fa-2x"></i>
-                </a>
-            </li>
-
-            <li class="nav-item" aria-label="search">
-                <a class="nav-item_link" href="find.html">
-                    <i class="fas fa-search fa-2x"></i>
-                </a>
-            </li>
-
-            <li class="nav-item" aria-label="menu">
-                <a class="nav-item_link" href="more.html">
-                    <div class="nav-item_dot"></div>
-                    <i class="fas fa-ellipsis-h fa-2x"></i>
-                </a>
-            </li>
-        </ul>
-    </nav>
-
     <header class="alt-header">
         <div class="alt-header_column">
             <a href="more.html"><i class="fas fa-angle-left fa-2x"></i></a>   
@@ -67,10 +37,11 @@
         </div>  
 
         <div class="alt-header_column">
-            <i class="fas fa-search fa-lg"></i>
+            <span><i class="fas fa-search fa-lg"></i></span>
         </div>
+
         <div class="alt-header_column">
-            <i class="fas fa-bars"></i>
+            <span><i class="fas fa-bars fa-lg"></i></span>
         </div>
     </header>
 
